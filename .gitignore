@@ -1,0 +1,54 @@
+node_modules
+
+/node_modules
+/.pnp
+/.pnp.js
+/.pnp.cjs
+/.pnp.loader.mjs
+
+# Build output
+/dist
+/build      
+/.cache
+/.next
+
+/.nuxt
+/.nuxt/dist 
+/.nuxt/components
+/.nuxt/auto-imports
+/.nuxt/auto-imports-vue
+/.nuxt/auto-imports-vue.d.ts
+/.nuxt/auto-imports.d.ts
+/.nuxt/auto-imports.d.ts.map
+/.nuxt/auto-imports-vue.d.ts.map
+
+/.nuxt/dist/client
+/.nuxt/dist/server
+/.nuxt/dist/server/client.manifest.json
+/.nuxt/dist/server/server.manifest.json
+/.nuxt/dist/server/server.js
+/.nuxt/dist/server/server.mjs
+/.nuxt/dist/server/server.js.map
+/.nuxt/dist/server/server.mjs.map
+/.nuxt/dist/server/server.manifest.json.map
+/.nuxt/dist/server/server.manifest.json.map
+#local env files
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local  
+
+#debug log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#vercel
+/.vercel
+/.vercel/output
+/.vercel/output/functions
+/.vercel/output/static-manifest.json
+#tesing
+/.nuxt-test 
+
+    node_modules
